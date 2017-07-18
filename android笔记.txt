@@ -1,0 +1,21 @@
+7.6
+1、
+	Inten inten=new Inten(classA.this,classB.class);
+	star()
+2、Intent 传值
+	向上传值
+	1-在第一个类里写上starAForRes(,1)
+	2-
+	Intent
+	inten.pubExtra()
+	setResult(RESULT_OK,)
+	finish
+	3-在1中重写onActivityResult
+7.10
+	需要了解4种不同的布局。一般都选什么。最好了解相对布局
+	RelativeLayout 
+		layout_alignParentRight 父控件的右边
+		layout_above="@id/xx" 在指定ID的上边
+		layout_toRightOf="@id/xx" ....右侧
+	
+	
